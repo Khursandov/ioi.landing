@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOI 2026 Uzbekistan - International Olympiad in Informatics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        :root {
+            --font-size: 14px;
+            --background: #ffffff;
+            --foreground: oklch(0.145 0 0);
+            --card: #ffffff;
+            --card-foreground: oklch(0.145 0 0);
+            --popover: oklch(1 0 0);
+            --popover-foreground: oklch(0.145 0 0);
+            --primary: #030213;
+            --primary-foreground: oklch(1 0 0);
+            --secondary: oklch(0.95 0.0058 264.53);
+            --secondary-foreground: #030213;
+            --muted: #ececf0;
+            --muted-foreground: #717182;
+            --accent: #e9ebef;
+            --accent-foreground: #030213;
+            --destructive: #d4183d;
+            --destructive-foreground: #ffffff;
+            --border: rgba(0, 0, 0, 0.1);
+            --input: transparent;
+            --input-background: #f3f3f5;
+            --switch-background: #cbced4;
+            --font-weight-medium: 500;
+            --font-weight-normal: 400;
+            --ring: oklch(0.708 0 0);
+            --chart-1: oklch(0.646 0.222 41.116);
+            --chart-2: oklch(0.6 0.118 184.704);
+            --chart-3: oklch(0.398 0.07 227.392);
+            --chart-4: oklch(0.828 0.189 84.429);
+            --chart-5: oklch(0.769 0.188 70.08);
+            --radius: 0.625rem;
+            --sidebar: oklch(0.985 0 0);
+            --sidebar-foreground: oklch(0.145 0 0);
+            --sidebar-primary: #030213;
+            --sidebar-primary-foreground: oklch(0.985 0 0);
+            --sidebar-accent: oklch(0.97 0 0);
+            --sidebar-accent-foreground: oklch(0.205 0 0);
+            --sidebar-border: oklch(0.922 0 0);
+            --sidebar-ring: oklch(0.708 0 0);
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .size-8 {
+            width: 2rem;
+            height: 2rem;
+        }
+        
+        .size-6 {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+        
+        .size-14 {
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+        
+        html {
+            font-size: var(--font-size);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-white">
+    <!-- Header -->
+    <header class="relative h-[856px] w-full overflow-hidden">
+        <!-- Background Image -->
+        <div 
+            class="absolute inset-0 bg-center bg-cover"
+            style="background-image: url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b04c88a4-03f8-7c33-6890-e403da24d311'); background-size: 103.4% 114.95%; background-position: 48.86% 78.14%;">
+        </div>
+        
+        <!-- Decorative Elements -->
+        <div class="absolute left-0 top-[632px] w-full overflow-hidden">
+            <div class="flex items-center justify-between w-[1637px] -ml-[94px]">
+                <div class="flex h-[222px] w-[331px] items-center justify-center">
+                    <div class="bg-white h-[93px] w-[322px] rounded-[60px] rotate-[25deg]"></div>
+                </div>
+                <div class="flex h-[189px] w-[335px] items-center justify-center">
+                    <div class="bg-white h-[93px] w-[322px] rounded-[60px] rotate-[162deg] scale-y-[-1]"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="absolute top-[41px] left-1/2 -translate-x-1/2 w-[1209px] flex items-center justify-between z-10">
+            <div 
+                class="h-[149px] w-[165px] bg-center bg-no-repeat"
+                style="background-image: url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/cbb1dc91-7292-6c17-3cc6-5cb7735cdc98'); background-size: 123.4% 137.33%; background-position: 46.34% 32.14%;">
+            </div>
+            <div class="flex items-center gap-[50px] text-white text-[18px]">
+                <a href="#" class="hover:text-blue-200 transition-colors">IOI 2026</a>
+                <a href="#" class="hover:text-blue-200 transition-colors">Uzbekistan</a>
+                <a href="#" class="hover:text-blue-200 transition-colors">Schedule</a>
+                <a href="#" class="hover:text-blue-200 transition-colors">Contest</a>
+                <a href="#" class="hover:text-blue-200 transition-colors">News</a>
+                <a href="#" class="hover:text-blue-200 transition-colors">Gallery</a>
+                <a href="#" class="hover:text-blue-200 transition-colors">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Welcome Board -->
+        <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1120px] bg-white p-[40px] rounded-[32px] shadow-[0px_12px_24px_0px_rgba(0,108,149,0.1)]">
+            <div class="flex flex-col gap-12">
+                <!-- Title Section -->
+                <div class="flex flex-col gap-8">
+                    <h1 class="text-[#004d79] text-[60px] font-semibold">
+                        Welcome to Uzbekistan!
+                    </h1>
+                    <p class="text-[#1a1a1a] text-[32px] leading-[1.1]">
+                        The 38th International Olympiad in Informatics (IOI 2026 Uzb)
+                    </p>
+                </div>
+
+                <!-- Search Section -->
+                <div class="bg-white border border-[#d9d9d9] rounded-[72px] p-3">
+                    <div class="flex items-center justify-between pl-3">
+                        <div class="flex items-center gap-[106px]">
+                            <div class="flex items-center gap-3">
+                                <div class="relative shrink-0 size-8">
+                                    <svg class="block size-full" fill="none" viewBox="0 0 32 32">
+                                        <g>
+                                            <path
+                                                d="M16.0011 17.9066C18.2987 17.9066 20.1611 16.0441 20.1611 13.7466C20.1611 11.4491 18.2987 9.58659 16.0011 9.58659C13.7036 9.58659 11.8411 11.4491 11.8411 13.7466C11.8411 16.0441 13.7036 17.9066 16.0011 17.9066Z"
+                                                stroke="#8C8C8C"
+                                                stroke-width="2"
+                                            />
+                                            <path
+                                                d="M4.82628 11.32C7.45295 -0.226664 24.5596 -0.21333 27.1729 11.3333C28.7063 18.1067 24.4929 23.84 20.7996 27.3867C18.1196 29.9733 13.8796 29.9733 11.1863 27.3867C7.50628 23.84 3.29295 18.0933 4.82628 11.32Z"
+                                                stroke="#8C8C8C"
+                                                stroke-width="2"
+                                            />
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-[#1a1a1a] text-[16px] font-semibold">Location</p>
+                                    <p class="text-[#8c8c8c] text-[16px]">Tashkent, Uzbekistan</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div class="relative shrink-0 size-8">
+                                    <svg class="block size-full" fill="none" viewBox="0 0 32 32">
+                                        <g>
+                                            <path
+                                                d="M10.6667 2.66667V6.66667"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-miterlimit="10"
+                                                stroke-width="2"
+                                            />
+                                            <path
+                                                d="M21.3333 2.66667V6.66667"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-miterlimit="10"
+                                                stroke-width="2"
+                                            />
+                                            <path
+                                                d="M4.66667 12.1198H27.3333"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-miterlimit="10"
+                                                stroke-width="2"
+                                            />
+                                            <path
+                                                d="M28 11.3333V22.6667C28 26.6667 26 29.3333 21.3333 29.3333H10.6667C6 29.3333 4 26.6667 4 22.6667V11.3333C4 7.33333 6 4.66667 10.6667 4.66667H21.3333C26 4.66667 28 7.33333 28 11.3333Z"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-miterlimit="10"
+                                                stroke-width="2"
+                                            />
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-[#1a1a1a] text-[16px] font-semibold">Date</p>
+                                    <p class="text-[#8c8c8c] text-[16px]">9-16-August</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div class="relative shrink-0 size-8">
+                                    <svg class="block size-full" fill="none" viewBox="0 0 32 32">
+                                        <g>
+                                            <path
+                                                d="M10.6667 2.66667V6.66667"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-miterlimit="10"
+                                                stroke-width="2"
+                                            />
+                                            <path
+                                                d="M21.3333 2.66667V6.66667"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-miterlimit="10"
+                                                stroke-width="2"
+                                            />
+                                            <path
+                                                d="M4.66667 12.1198H27.3333"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-miterlimit="10"
+                                                stroke-width="2"
+                                            />
+                                            <path
+                                                d="M28 11.3333V22.6667C28 26.6667 26 29.3333 21.3333 29.3333H10.6667C6 29.3333 4 26.6667 4 22.6667V11.3333C4 7.33333 6 4.66667 10.6667 4.66667H21.3333C26 4.66667 28 7.33333 28 11.3333Z"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-miterlimit="10"
+                                                stroke-width="2"
+                                            />
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-[#1a1a1a] text-[16px] font-semibold">Check out</p>
+                                    <p class="text-[#8c8c8c] text-[16px]">Add dates</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div class="relative shrink-0 size-8">
+                                    <svg class="block size-full" fill="none" viewBox="0 0 32 32">
+                                        <g>
+                                            <path
+                                                d="M12.2141 14.4933C12.0807 14.48 11.9207 14.48 11.7741 14.4933C8.60073 14.3867 6.08073 11.7867 6.08073 8.58667C6.08073 5.32 8.72073 2.66667 12.0007 2.66667C15.2674 2.66667 17.9207 5.32 17.9207 8.58667C17.9074 11.7867 15.3874 14.3867 12.2141 14.4933Z"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                            />
+                                            <path
+                                                d="M21.8791 5.33333C24.4657 5.33333 26.5457 7.42667 26.5457 10C26.5457 12.52 24.5457 14.5733 22.0524 14.6667C21.9457 14.6533 21.8257 14.6533 21.7057 14.6667"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                            />
+                                            <path
+                                                d="M5.5476 19.4133C2.32094 21.5733 2.32094 25.0933 5.5476 27.24C9.21427 29.6933 15.2276 29.6933 18.8943 27.24C22.1209 25.08 22.1209 21.56 18.8943 19.4133C15.2409 16.9733 9.2276 16.9733 5.5476 19.4133Z"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                            />
+                                            <path
+                                                d="M24.4531 26.6667C25.4131 26.4667 26.3198 26.08 27.0665 25.5067C29.1465 23.9467 29.1465 21.3733 27.0665 19.8133C26.3331 19.2533 25.4398 18.88 24.4931 18.6667"
+                                                stroke="#8C8C8C"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                            />
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-[#1a1a1a] text-[16px] font-semibold">Guests</p>
+                                    <p class="text-[#8c8c8c] text-[16px]">Add guests</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="bg-[#004d79] rounded-[56px] size-14 flex items-center justify-center hover:bg-[#003d61] transition-colors">
+                            <div class="relative shrink-0 size-6">
+                                <svg class="block size-full" fill="none" viewBox="0 0 24 24">
+                                    <g>
+                                        <path
+                                            d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+                                            stroke="white"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="1.5"
+                                        />
+                                        <path
+                                            d="M22 22L20 20"
+                                            stroke="white"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="1.5"
+                                        />
+                                    </g>
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- IOI Info Section -->
+    <section class="py-[90px] px-0 w-full flex flex-col items-center gap-[72px]">
+        <h2 class="text-[#004d79] text-[40px] font-bold">IOI 2026 in Uzbekistan</h2>
+        <div class="w-[1122px] flex items-center justify-between">
+            <div 
+                class="h-[197px] w-[252px] bg-center bg-cover"
+                style="background-image: url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/62596654-e814-48be-293a-bad64e3d905a');">
+            </div>
+            <div class="flex-1 ml-[72px] text-[#191919] text-[18px] leading-[1.6]">
+                <p>The competition is one of five international science olympiads held annually.</p>
+                <p>The 38th International Olympiad in Informatics (IOI 2026) will be held in</p>
+                <p>Tashkent, Uzbekistan from 1-7 of August, 2026, as the most prestigious computer</p>
+                <p>science competition for secondary school and high school students around the</p>
+                <p>world.</p>
+                <br>
+                <p>The IOI 2026 is organised by the Ministry of Digital Technologies of Republic of</p>
+                <p>Uzbekistan and Digital Education Development Center.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organizers Section -->
+    <section class="py-[60px] px-0 w-full flex flex-col items-center gap-[72px]">
+        <h2 class="text-[#004d79] text-[40px] font-bold uppercase">Organizers</h2>
+        <div class="w-[1120px] flex items-center justify-between">
+            <div 
+                class="h-[88px] w-[321px] bg-center bg-cover"
+                style="background-image: url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/baf144d8-0ae3-5b94-b53c-c2d21a2db71b');">
+            </div>
+            <div 
+                class="h-[82px] w-[296px] bg-center bg-cover"
+                style="background-image: url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/d4ae582b-cb1c-dd26-50df-672e0f22ee6d');">
+            </div>
+            <div 
+                class="h-[88px] w-[269px] bg-center bg-cover"
+                style="background-image: url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/b5f0401c-1202-63bc-accb-204f897466f3');">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section class="py-[60px] px-0 w-full flex flex-col items-center gap-[72px]">
+        <h2 class="text-[#004d79] text-[40px] font-bold uppercase">Sponsors</h2>
+        <div 
+            class="h-[85px] w-[280px] bg-center bg-cover"
+            style="background-image: url('https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1e4d46f0-c53f-1206-8b14-8c1513dc3ddf');">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#004d79] h-96 w-full relative">
+        <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[1120px] flex items-start justify-between">
+            <div class="flex flex-col gap-8">
+                <h3 class="text-[#f2f2f2] text-[20px] font-bold">IOI 2026</h3>
+                <div class="flex flex-col gap-6 text-[#bfbfbf] text-[16px]">
+                    <a href="#" class="hover:text-white transition-colors">IOI 2026 Uzbekistan</a>
+                    <a href="#" class="hover:text-white transition-colors">Schedule</a>
+                    <a href="#" class="hover:text-white transition-colors">Registration</a>
+                    <a href="#" class="hover:text-white transition-colors">Logo</a>
+                </div>
+            </div>
+            
+            <div class="flex flex-col gap-8">
+                <h3 class="text-[#f2f2f2] text-[20px] font-bold">Uzbekistan</h3>
+                <div class="flex flex-col gap-6 text-[#bfbfbf] text-[16px]">
+                    <a href="#" class="hover:text-white transition-colors">About Uzbekistan</a>
+                    <a href="#" class="hover:text-white transition-colors">General Information</a>
+                    <a href="#" class="hover:text-white transition-colors">Travel and Visa</a>
+                    <a href="#" class="hover:text-white transition-colors">Accommodations</a>
+                </div>
+            </div>
+            
+            <div class="flex flex-col gap-8">
+                <h3 class="text-[#f2f2f2] text-[20px] font-bold">Contest</h3>
+                <div class="flex flex-col gap-6 text-[#bfbfbf] text-[16px]">
+                    <a href="#" class="hover:text-white transition-colors">Contest Rules</a>
+                    <a href="#" class="hover:text-white transition-colors">Call for Tasks</a>
+                    <a href="#" class="hover:text-white transition-colors">Contest Environment</a>
+                    <a href="#" class="hover:text-white transition-colors">Live Scoreboard</a>
+                    <a href="#" class="hover:text-white transition-colors">Tasks</a>
+                    <a href="#" class="hover:text-white transition-colors">Results</a>
+                </div>
+            </div>
+            
+            <div class="flex flex-col gap-8">
+                <h3 class="text-[#f2f2f2] text-[20px] font-bold">Gallery</h3>
+                <div class="flex flex-col gap-6 text-[#bfbfbf] text-[16px]">
+                    <a href="#" class="hover:text-white transition-colors">Photos</a>
+                    <a href="#" class="hover:text-white transition-colors">Videos</a>
+                </div>
+            </div>
+            
+            <div class="flex flex-col gap-8">
+                <h3 class="text-[#f2f2f2] text-[20px] font-bold">Contact</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
