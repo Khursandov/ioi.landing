@@ -39,7 +39,7 @@ export const options = resolveOptions({
     ],
     "servers": [],
     "root": [
-      "/Users/sarvarkhursandov/Documents/uzbekcoders/apio"
+      "/Users/sarvarkhursandov/Documents/gos/ioi.landing"
     ],
     "src": [
       ""

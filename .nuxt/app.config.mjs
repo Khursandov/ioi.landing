@@ -13,6 +13,6 @@ if (import.meta.hot) {
   })
 }
 
-import cfg0 from "/Users/sarvarkhursandov/Documents/uzbekcoders/apio/app.config.ts"
+import cfg0 from "/Users/sarvarkhursandov/Documents/gos/ioi.landing/app.config.ts"
 
 export default /*@__PURE__*/ defuFn(cfg0, inlineConfig)

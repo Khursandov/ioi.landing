@@ -1,1 +1,1 @@
-export { default } from "file:///Users/sarvarkhursandov/Documents/uzbekcoders/apio/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///Users/sarvarkhursandov/Documents/gos/ioi.landing/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

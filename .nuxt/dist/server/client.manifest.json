@@ -7,12 +7,12 @@
     "module": true,
     "resourceType": "script"
   },
-  "/Users/sarvarkhursandov/Documents/uzbekcoders/apio/node_modules/nuxt/dist/app/entry.js": {
+  "/Users/sarvarkhursandov/Documents/gos/ioi.landing/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/Users/sarvarkhursandov/Documents/uzbekcoders/apio/node_modules/nuxt/dist/app/entry.js"
+    "file": "/Users/sarvarkhursandov/Documents/gos/ioi.landing/node_modules/nuxt/dist/app/entry.js"
   }
 }

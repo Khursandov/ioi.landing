@@ -1,1 +1,1 @@
-export { default } from "/Users/sarvarkhursandov/Documents/uzbekcoders/apio/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue"
+export { default } from "/Users/sarvarkhursandov/Documents/gos/ioi.landing/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue"
