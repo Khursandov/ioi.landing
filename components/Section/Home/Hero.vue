@@ -30,7 +30,7 @@
               <!-- Main Title -->
               <div class="space-y-4">
                 <h1
-                  class="bg-clip-text text-4xl font-bold text-[#004094] text-transparent md:text-6xl lg:text-7xl"
+                  class="bg-clip-text text-4xl font-bold text-[#004094] md:text-6xl lg:text-7xl"
                 >
                   Welcome to Uzbekistan!
                 </h1>
@@ -137,9 +137,7 @@
                   </div>
                   <div>
                     <p class="text-sm font-medium text-blue-700">Countries</p>
-                    <p class="text-lg font-bold text-blue-700">
-                      90+ Delegations
-                    </p>
+                    <p class="text-lg font-bold text-blue-700">90+ Teams</p>
                   </div>
                 </div>
               </div>
