@@ -2,7 +2,8 @@
 import type { DefineComponent, SlotsType } from 'vue'
 type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refresh: () => Promise<void>}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, SlotsType<{ fallback: { error: unknown } }>>
 interface _GlobalComponents {
-      'LayoutFooter': typeof import("../components/Layout/Footer.vue")['default']
+      'AppDropdown': typeof import("../components/AppDropdown.vue")['default']
+    'LayoutFooter': typeof import("../components/Layout/Footer.vue")['default']
     'LayoutHeader': typeof import("../components/Layout/Header/Header.vue")['default']
     'SectionHomeContacts': typeof import("../components/Section/Home/Contacts.vue")['default']
     'SectionHomeFlags': typeof import("../components/Section/Home/Flags.vue")['default']
@@ -75,7 +76,8 @@ interface _GlobalComponents {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-      'LazyLayoutFooter': typeof import("../components/Layout/Footer.vue")['default']
+      'LazyAppDropdown': typeof import("../components/AppDropdown.vue")['default']
+    'LazyLayoutFooter': typeof import("../components/Layout/Footer.vue")['default']
     'LazyLayoutHeader': typeof import("../components/Layout/Header/Header.vue")['default']
     'LazySectionHomeContacts': typeof import("../components/Section/Home/Contacts.vue")['default']
     'LazySectionHomeFlags': typeof import("../components/Section/Home/Flags.vue")['default']
@@ -154,6 +156,7 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const AppDropdown: typeof import("../components/AppDropdown.vue")['default']
 export const LayoutFooter: typeof import("../components/Layout/Footer.vue")['default']
 export const LayoutHeader: typeof import("../components/Layout/Header/Header.vue")['default']
 export const SectionHomeContacts: typeof import("../components/Section/Home/Contacts.vue")['default']
@@ -227,6 +230,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
+export const LazyAppDropdown: typeof import("../components/AppDropdown.vue")['default']
 export const LazyLayoutFooter: typeof import("../components/Layout/Footer.vue")['default']
 export const LazyLayoutHeader: typeof import("../components/Layout/Header/Header.vue")['default']
 export const LazySectionHomeContacts: typeof import("../components/Section/Home/Contacts.vue")['default']

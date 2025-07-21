@@ -18,7 +18,7 @@
           The competition is one of five international science olympiads held
           annually.<br />
           The 38th International Olympiad in Informatics (IOI 2026) will be held
-          in Tashkent, Uzbekistan from 1-7 of August, 2026, as the most
+          in Tashkent, Uzbekistan from 9-16 of August, 2026, as the most
           prestigious computer science competition for secondary school and high
           school students around the world.
         </p>
