@@ -137,7 +137,9 @@
                   </div>
                   <div>
                     <p class="text-sm font-medium text-blue-700">Countries</p>
-                    <p class="text-lg font-bold text-blue-700">90+ Teams</p>
+                    <p class="text-lg font-bold text-blue-700">
+                      90+ Delegations
+                    </p>
                   </div>
                 </div>
               </div>
