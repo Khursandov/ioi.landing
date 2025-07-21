@@ -115,7 +115,7 @@
         >
           <template #default="{ close }">
             <NuxtLink
-              to="/general-information"
+              to="/call-for-tasks"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
