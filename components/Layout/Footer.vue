@@ -50,7 +50,7 @@
         <div>
           <h3 class="mb-3 text-lg font-bold">Contact</h3>
           <ul class="space-y-2 text-base font-normal text-white/80">
-            <li><a href="#">info@apio.uz</a></li>
+            <li><a href="#"></a></li>
             <li><a href="#">+998 71 203-03-43</a></li>
           </ul>
         </div>

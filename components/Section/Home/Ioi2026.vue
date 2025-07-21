@@ -1,19 +1,19 @@
 <template>
   <section class="bg-white px-6 py-12 md:py-16">
     <h2 class="mb-6 text-center text-2xl font-bold text-[#004D79] md:text-4xl">
-      IOI 2026 in Uzbekistan
+      IOI 2026 IN UZBEKISTAN
     </h2>
     <div
-      class="container mx-auto flex flex-col items-center md:mt-12 md:flex-row md:items-start md:gap-12 lg:gap-20"
+      class="container mx-auto flex flex-col items-center md:mt-12 md:flex-row md:items-start md:gap-12 lg:gap-0"
     >
-      <div class="m-auto mb-8 flex justify-center md:mb-0 md:block md:w-1/3">
+      <div class="m-auto mb-8 flex justify-center md:mb-0 md:block md:w-1/4">
         <img
-          src="/images/hosts/ioi.png"
+          src="/images/hosts/ioi2.svg"
           alt="IOI Logo"
-          class="h-32 w-auto md:h-52"
+          class="h-40 w-auto md:h-56"
         />
       </div>
-      <div class="text-center md:w-2/3 md:text-left">
+      <div class="m-auto text-center md:w-3/4 md:text-left">
         <p class="mb-4 text-base text-[#223553] md:text-lg">
           The competition is one of five international science olympiads held
           annually.<br />

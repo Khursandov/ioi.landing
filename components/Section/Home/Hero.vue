@@ -1,15 +1,17 @@
 <template>
-  <section class="relative min-h-[800px] w-full overflow-hidden">
+  <section
+    class="relative min-h-[800px] w-full overflow-hidden bg-gradient-to-b from-[#004094] to-[#004094]"
+  >
     <!-- Фон -->
     <img
       src="/images/hero/uz.png"
       alt="Uzbekistan city view"
-      class="absolute inset-0 z-0 size-full object-cover"
+      class="absolute inset-0 z-0 size-full bg-gradient-to-b from-[#004094] to-[#004094] object-cover"
     />
 
     <!-- Gradient Overlay -->
     <div
-      class="absolute inset-0 z-10 bg-gradient-to-b from-black/20 via-transparent to-black/40"
+      class="absolute inset-0 z-10 bg-gradient-to-b from-[#004D79] via-transparent via-40% to-transparent"
     ></div>
 
     <!-- Main Content Card -->
@@ -18,16 +20,8 @@
     >
       <!-- Background with gradient and blur effect -->
       <div
-        class="relative overflow-hidden rounded-3xl border border-white/20 bg-gradient-to-br from-white/95 to-white/90 shadow-2xl backdrop-blur-md"
+        class="relative overflow-hidden rounded-3xl border border-white/20 bg-white shadow-2xl"
       >
-        <!-- Decorative elements -->
-        <div
-          class="absolute -right-20 -top-20 size-40 rounded-full bg-gradient-to-br from-blue-400/20 to-cyan-400/20 blur-3xl"
-        ></div>
-        <div
-          class="absolute -bottom-10 -left-10 size-32 rounded-full bg-gradient-to-br from-purple-400/20 to-pink-400/20 blur-2xl"
-        ></div>
-
         <!-- Content -->
         <div class="relative z-10 p-6 md:p-12">
           <div class="flex flex-col gap-8 md:gap-12">
@@ -36,14 +30,9 @@
               <!-- Main Title -->
               <div class="space-y-4">
                 <h1
-                  class="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-4xl font-bold text-transparent md:text-6xl lg:text-7xl"
+                  class="bg-clip-text text-4xl font-bold text-[#004094] text-transparent md:text-6xl lg:text-7xl"
                 >
-                  Welcome to
-                  <span
-                    class="block bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent"
-                  >
-                    Uzbekistan!
-                  </span>
+                  Welcome to Uzbekistan!
                 </h1>
 
                 <!-- Subtitle with better typography -->
@@ -57,22 +46,6 @@
                     class="text-lg font-medium text-gray-600 md:text-2xl lg:text-3xl"
                   >
                     in Informatics
-                    <span class="inline-flex items-center gap-2 text-blue-600">
-                      (IOI 2026)
-                      <svg
-                        class="size-6 md:size-8"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                        />
-                      </svg>
-                    </span>
                   </p>
                 </div>
               </div>
@@ -111,12 +84,12 @@
 
               <!-- Location Card -->
               <div
-                class="group rounded-2xl bg-gradient-to-br from-green-50 to-emerald-50 p-4 transition-all duration-300 hover:scale-105 hover:shadow-lg md:p-6"
+                class="group rounded-2xl bg-gradient-to-br from-blue-50 to-cyan-50 p-4 transition-all duration-300 hover:scale-105 hover:shadow-lg md:p-6"
               >
                 <div class="flex items-center gap-3">
-                  <div class="rounded-full bg-green-100 p-2">
+                  <div class="rounded-full bg-blue-100 p-2">
                     <svg
-                      class="size-5 text-green-600"
+                      class="size-5 text-blue-700"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -137,19 +110,19 @@
                   </div>
                   <div>
                     <p class="text-sm font-medium text-gray-600">Location</p>
-                    <p class="text-lg font-bold text-green-700">Tashkent</p>
+                    <p class="text-lg font-bold text-blue-700">Tashkent</p>
                   </div>
                 </div>
               </div>
 
               <!-- Participants Card -->
               <div
-                class="group rounded-2xl bg-gradient-to-br from-purple-50 to-pink-50 p-4 transition-all duration-300 hover:scale-105 hover:shadow-lg md:p-6"
+                class="group rounded-2xl bg-gradient-to-br from-blue-50 to-cyan-50 p-4 transition-all duration-300 hover:scale-105 hover:shadow-lg md:p-6"
               >
                 <div class="flex items-center gap-3">
-                  <div class="rounded-full bg-purple-100 p-2">
+                  <div class="rounded-full bg-blue-100 p-2">
                     <svg
-                      class="size-5 text-purple-600"
+                      class="size-5 text-blue-700"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -163,8 +136,8 @@
                     </svg>
                   </div>
                   <div>
-                    <p class="text-sm font-medium text-gray-600">Countries</p>
-                    <p class="text-lg font-bold text-purple-700">90+ Teams</p>
+                    <p class="text-sm font-medium text-blue-700">Countries</p>
+                    <p class="text-lg font-bold text-blue-700">90+ Teams</p>
                   </div>
                 </div>
               </div>
