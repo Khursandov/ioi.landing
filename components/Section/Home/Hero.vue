@@ -40,12 +40,7 @@
                   <p
                     class="text-xl font-medium text-gray-700 md:text-3xl lg:text-4xl"
                   >
-                    The 38th International Olympiad
-                  </p>
-                  <p
-                    class="text-lg font-medium text-gray-600 md:text-2xl lg:text-3xl"
-                  >
-                    in Informatics
+                    The 38th International Olympiad in Informatics
                   </p>
                 </div>
               </div>
@@ -136,7 +131,7 @@
                     </svg>
                   </div>
                   <div>
-                    <p class="text-sm font-medium text-blue-700">Countries</p>
+                    <p class="text-sm font-medium text-gray-600">Countries</p>
                     <p class="text-lg font-bold text-blue-700">90+ Teams</p>
                   </div>
                 </div>
@@ -146,17 +141,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Floating decorative elements -->
-    <div
-      class="absolute left-10 top-20 size-2 animate-pulse rounded-full bg-white/60 md:size-3"
-    ></div>
-    <div
-      class="absolute right-20 top-32 size-1 animate-pulse rounded-full bg-white/40 delay-1000 md:size-2"
-    ></div>
-    <div
-      class="absolute left-1/4 top-40 size-1.5 animate-pulse rounded-full bg-white/50 delay-500 md:size-2.5"
-    ></div>
   </section>
 </template>
 

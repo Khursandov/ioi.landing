@@ -38,21 +38,21 @@
               IOI 2026
             </NuxtLink>
             <NuxtLink
-              to="/rules"
+              to="/coming-soon"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
               Organisers
             </NuxtLink>
             <NuxtLink
-              to="/faq"
+              to="/coming-soon"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
               Sponsors
             </NuxtLink>
             <NuxtLink
-              to="/faq"
+              to="/coming-soon"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
@@ -83,21 +83,21 @@
               General Information
             </NuxtLink>
             <NuxtLink
-              to="/rules"
+              to="/coming-soon"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
               Registration
             </NuxtLink>
             <NuxtLink
-              to="/faq"
+              to="/coming-soon"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
               Travel and visa
             </NuxtLink>
             <NuxtLink
-              to="/faq"
+              to="/coming-soon"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
@@ -115,7 +115,7 @@
         >
           <template #default="{ close }">
             <NuxtLink
-              to="/call-for-tasks"
+              to="/coming-soon"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
@@ -162,7 +162,6 @@
             </NuxtLink>
           </template>
         </AppDropdown>
-        <NuxtLink to="#" :class="linkClass"> Contact </NuxtLink>
         <NuxtLink to="/coming-soon" :class="linkClass"> FAQ </NuxtLink>
       </nav>
 
@@ -224,7 +223,7 @@
               IOI 2026
             </NuxtLink>
             <NuxtLink
-              to="/rules"
+              to="/coming-soon"
               :class="mobileLinkClass"
               @click="
                 () => {
@@ -236,7 +235,7 @@
               Organisers
             </NuxtLink>
             <NuxtLink
-              to="/faq"
+              to="/coming-soon"
               :class="mobileLinkClass"
               @click="
                 () => {
@@ -248,7 +247,7 @@
               Sponsors
             </NuxtLink>
             <NuxtLink
-              to="/faq"
+              to="/coming-soon"
               :class="mobileLinkClass"
               @click="
                 () => {
@@ -296,7 +295,7 @@
               General Information
             </NuxtLink>
             <NuxtLink
-              to="/rules"
+              to="/coming-soon"
               :class="mobileLinkClass"
               @click="
                 () => {
@@ -308,7 +307,7 @@
               Registration
             </NuxtLink>
             <NuxtLink
-              to="/faq"
+              to="/coming-soon"
               :class="mobileLinkClass"
               @click="
                 () => {
@@ -320,7 +319,7 @@
               Travel and visa
             </NuxtLink>
             <NuxtLink
-              to="/faq"
+              to="/coming-soon"
               :class="mobileLinkClass"
               @click="
                 () => {
@@ -352,7 +351,7 @@
         >
           <template #default="{ close }">
             <NuxtLink
-              to="/call-for-tasks"
+              to="/coming-soon"
               :class="mobileLinkClass"
               @click="
                 () => {

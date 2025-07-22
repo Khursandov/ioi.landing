@@ -31,7 +31,7 @@
           <h3 class="mb-3 text-lg font-bold">Contest</h3>
           <ul class="space-y-2 text-base font-normal text-white/80">
             <li><NuxtLink to="/coming-soon">Contest Rules</NuxtLink></li>
-            <li><NuxtLink to="/call-for-tasks">Call for Tasks</NuxtLink></li>
+            <li><NuxtLink to="/coming-soon">Call for Tasks</NuxtLink></li>
             <li><NuxtLink to="/coming-soon">Contest Environment</NuxtLink></li>
             <li><NuxtLink to="/coming-soon">Live Scoreboard</NuxtLink></li>
             <li><NuxtLink to="/coming-soon">Tasks</NuxtLink></li>
