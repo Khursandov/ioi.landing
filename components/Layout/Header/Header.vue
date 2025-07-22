@@ -160,7 +160,6 @@
             </NuxtLink>
           </template>
         </AppDropdown>
-        <NuxtLink to="/coming-soon" :class="linkClass"> FAQ </NuxtLink>
       </nav>
 
       <!-- Мобильное меню (бургер) -->
@@ -425,13 +424,6 @@
 
         <NuxtLink to="#" :class="mobileLinkClass" @click="closeMobileMenu">
           Contact
-        </NuxtLink>
-        <NuxtLink
-          to="/coming-soon"
-          :class="mobileLinkClass"
-          @click="closeMobileMenu"
-        >
-          FAQ
         </NuxtLink>
       </nav>
     </div>
