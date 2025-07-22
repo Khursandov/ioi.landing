@@ -23,13 +23,13 @@
           :close-delay="700"
         >
           <template #default="{ close }">
-            <!-- <NuxtLink
+            <NuxtLink
               to="/about"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
               About IOI
-            </NuxtLink> -->
+            </NuxtLink>
             <NuxtLink
               to="/coming-soon"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
@@ -198,7 +198,7 @@
           :close-delay="0"
         >
           <template #default="{ close }">
-            <!-- <NuxtLink
+            <NuxtLink
               to="/about"
               :class="mobileLinkClass"
               @click="
@@ -209,7 +209,7 @@
               "
             >
               About IOI
-            </NuxtLink> -->
+            </NuxtLink>
             <NuxtLink
               to="/coming-soon"
               :class="mobileLinkClass"
