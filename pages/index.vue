@@ -14,10 +14,10 @@
 const { t } = useI18n();
 
 useSeoMeta({
-  title: t("Ioi2026"),
+  title: t("IOI 2026"),
   ogTitle: t("meta.main.title"),
   twitterTitle: t("meta.main.title"),
-  description: t("Ioi2026"),
+  description: t("IOI 2026"),
   ogDescription: t("meta.main.description"),
   twitterDescription: t("meta.main.description"),
   ogImage: "/image-files/big-content.png",
