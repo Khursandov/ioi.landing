@@ -75,21 +75,21 @@
               <p>Tashkent</p>
             </div>
             <div
-              class="rounded-xl bg-gradient-to-br from-green-500 to-teal-600 p-6 text-center text-white"
+              class="rounded-xl bg-gradient-to-br from-[#004D79] to-blue-600 p-6 text-center text-white"
             >
               <div class="mb-3 text-3xl">👥</div>
               <h3 class="mb-2 text-xl font-semibold">Population</h3>
-              <p>34+ Million</p>
+              <p>37+ Million</p>
             </div>
             <div
-              class="rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 p-6 text-center text-white"
+              class="rounded-xl bg-gradient-to-br from-[#004D79] to-blue-600 p-6 text-center text-white"
             >
               <div class="mb-3 text-3xl">🗣️</div>
               <h3 class="mb-2 text-xl font-semibold">Language</h3>
-              <p>Uzbek, Russian</p>
+              <p>Uzbek, Russian, English</p>
             </div>
             <div
-              class="rounded-xl bg-gradient-to-br from-orange-500 to-red-600 p-6 text-center text-white"
+              class="rounded-xl bg-gradient-to-br from-[#004D79] to-blue-600 p-6 text-center text-white"
             >
               <div class="mb-3 text-3xl">💰</div>
               <h3 class="mb-2 text-xl font-semibold">Currency</h3>
@@ -128,7 +128,7 @@
 
             <!-- Bukhara -->
             <div
-              class="rounded-xl bg-gradient-to-br from-green-50 to-teal-50 p-6"
+              class="rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 p-6"
             >
               <div
                 class="mb-4 aspect-video rounded-lg border-2 border-dashed border-gray-300 bg-white p-4 text-center"
@@ -148,7 +148,7 @@
 
             <!-- Khiva -->
             <div
-              class="rounded-xl bg-gradient-to-br from-yellow-50 to-orange-50 p-6"
+              class="rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 p-6"
             >
               <div
                 class="mb-4 aspect-video rounded-lg border-2 border-dashed border-gray-300 bg-white p-4 text-center"
@@ -188,7 +188,7 @@
                   is a hearty rice dish cooked with meat, carrots, and spices.
                 </p>
                 <div
-                  class="rounded-lg bg-gradient-to-r from-orange-50 to-yellow-50 p-4"
+                  class="rounded-lg bg-gradient-to-br from-blue-50 to-indigo-50 p-4"
                 >
                   <h4 class="mb-2 font-semibold text-[#004D79]">
                     Popular Dishes:
@@ -218,7 +218,7 @@
                   down through generations of skilled artisans.
                 </p>
                 <div
-                  class="rounded-lg bg-gradient-to-r from-purple-50 to-pink-50 p-4"
+                  class="rounded-lg bg-gradient-to-br from-blue-50 to-indigo-50 p-4"
                 >
                   <h4 class="mb-2 font-semibold text-[#004D79]">
                     Traditional Arts:
@@ -312,64 +312,6 @@
           </div>
         </section>
 
-        <!-- Modern Uzbekistan -->
-        <section class="mb-16 rounded-2xl bg-white p-8 shadow-lg md:p-12">
-          <h2 class="mb-8 text-3xl font-bold text-[#004D79] md:text-4xl">
-            Modern Uzbekistan
-          </h2>
-          <div class="grid gap-8 lg:grid-cols-2 lg:items-center">
-            <div class="space-y-6 text-lg text-[#223553]">
-              <p>
-                Today's Uzbekistan is a rapidly developing nation that
-                successfully balances preservation of its ancient heritage with
-                modern progress and technological advancement.
-              </p>
-              <div class="space-y-4">
-                <div
-                  class="rounded-lg bg-gradient-to-r from-green-50 to-emerald-50 p-4"
-                >
-                  <h4 class="mb-2 font-semibold text-[#004D79]">
-                    Economic Growth
-                  </h4>
-                  <p class="text-sm">
-                    Major reforms in tourism, agriculture, and technology
-                    sectors
-                  </p>
-                </div>
-                <div
-                  class="rounded-lg bg-gradient-to-r from-blue-50 to-indigo-50 p-4"
-                >
-                  <h4 class="mb-2 font-semibold text-[#004D79]">Education</h4>
-                  <p class="text-sm">
-                    Growing focus on IT education and international
-                    collaborations
-                  </p>
-                </div>
-                <div
-                  class="rounded-lg bg-gradient-to-r from-purple-50 to-pink-50 p-4"
-                >
-                  <h4 class="mb-2 font-semibold text-[#004D79]">
-                    Infrastructure
-                  </h4>
-                  <p class="text-sm">
-                    Modern transportation and communication networks
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div
-                class="aspect-video rounded-xl border-2 border-dashed border-gray-300 bg-gradient-to-br from-green-50 to-blue-50 p-8 text-center"
-              >
-                <div class="flex h-full flex-col items-center justify-center">
-                  <div class="mb-4 text-6xl">🏙️</div>
-                  <p class="text-gray-600">Modern Tashkent cityscape</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <!-- Why Uzbekistan for IOI 2026 -->
         <section
           class="mb-16 rounded-2xl bg-gradient-to-r from-[#004D79] to-blue-600 p-8 text-white md:p-12"
@@ -401,33 +343,6 @@
                 Unique opportunity to experience ancient Silk Road culture
                 alongside world-class competition
               </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Call to Action -->
-        <section class="text-center">
-          <div class="rounded-2xl bg-white p-8 shadow-lg md:p-12">
-            <h3 class="mb-4 text-3xl font-bold text-[#004D79]">
-              Explore Uzbekistan During IOI 2026
-            </h3>
-            <p class="mb-8 text-xl text-[#223553]">
-              Join us for an unforgettable journey combining world-class
-              competition with rich cultural heritage
-            </p>
-            <div class="flex flex-col justify-center gap-4 sm:flex-row">
-              <NuxtLink
-                to="/general-information"
-                class="rounded-lg bg-[#004D79] px-8 py-3 font-semibold text-white transition-all hover:bg-[#003d61] hover:shadow-lg"
-              >
-                General Information
-              </NuxtLink>
-              <NuxtLink
-                to="/coming-soon"
-                class="rounded-lg border-2 border-[#004D79] px-8 py-3 font-semibold text-[#004D79] transition-all hover:bg-[#004D79] hover:text-white"
-              >
-                Travel & Visa Info
-              </NuxtLink>
             </div>
           </div>
         </section>

@@ -6,9 +6,8 @@
         <div>
           <h3 class="mb-3 text-lg font-bold">IOI 2026</h3>
           <ul class="space-y-2 text-base font-normal text-white/80">
-            <li><NuxtLink to="/coming-soon">IOI 2026 Uzbekistan</NuxtLink></li>
-            <li><NuxtLink to="/coming-soon">Schedule</NuxtLink></li>
-            <li><NuxtLink to="/coming-soon">Registration</NuxtLink></li>
+            <li><NuxtLink to="/coming-soon">Organisers</NuxtLink></li>
+            <li><NuxtLink to="/coming-soon">Sponsors</NuxtLink></li>
             <li><NuxtLink to="/coming-soon">Logo</NuxtLink></li>
           </ul>
         </div>
@@ -30,11 +29,8 @@
         <div>
           <h3 class="mb-3 text-lg font-bold">Contest</h3>
           <ul class="space-y-2 text-base font-normal text-white/80">
-            <li><NuxtLink to="/coming-soon">Contest Rules</NuxtLink></li>
             <li><NuxtLink to="/coming-soon">Call for Tasks</NuxtLink></li>
-            <li><NuxtLink to="/coming-soon">Contest Environment</NuxtLink></li>
-            <li><NuxtLink to="/coming-soon">Live Scoreboard</NuxtLink></li>
-            <li><NuxtLink to="/coming-soon">Tasks</NuxtLink></li>
+            <li><NuxtLink to="/coming-soon">Contest Rules</NuxtLink></li>
             <li><NuxtLink to="/coming-soon">Results</NuxtLink></li>
           </ul>
         </div>

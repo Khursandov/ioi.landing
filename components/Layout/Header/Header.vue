@@ -23,15 +23,15 @@
           :close-delay="700"
         >
           <template #default="{ close }">
-            <NuxtLink
+            <!-- <NuxtLink
               to="/about"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
               About IOI
-            </NuxtLink>
+            </NuxtLink> -->
             <NuxtLink
-              to="/general-information"
+              to="/coming-soon"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
@@ -129,7 +129,7 @@
               Contest Rules
             </NuxtLink>
             <NuxtLink
-              to="/schedule"
+              to="/coming-soon"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
@@ -198,7 +198,7 @@
           :close-delay="0"
         >
           <template #default="{ close }">
-            <NuxtLink
+            <!-- <NuxtLink
               to="/about"
               :class="mobileLinkClass"
               @click="
@@ -209,9 +209,9 @@
               "
             >
               About IOI
-            </NuxtLink>
+            </NuxtLink> -->
             <NuxtLink
-              to="/schedule"
+              to="/coming-soon"
               :class="mobileLinkClass"
               @click="
                 () => {
@@ -283,7 +283,7 @@
               About Uzbekistan
             </NuxtLink>
             <NuxtLink
-              to="/schedule"
+              to="/general-information"
               :class="mobileLinkClass"
               @click="
                 () => {
@@ -363,7 +363,7 @@
               Call for Tasks
             </NuxtLink>
             <NuxtLink
-              to="/contest-rules"
+              to="/coming-soon"
               :class="mobileLinkClass"
               @click="
                 () => {
@@ -375,7 +375,7 @@
               Contest Rules
             </NuxtLink>
             <NuxtLink
-              to="/schedule"
+              to="/coming-soon"
               :class="mobileLinkClass"
               @click="
                 () => {

@@ -65,7 +65,7 @@
               <!-- Population -->
               <div class="rounded-lg bg-white p-4 shadow-md">
                 <h3 class="mb-2 font-semibold text-gray-800">Population</h3>
-                <p class="text-blue-600">34+ Million</p>
+                <p class="text-blue-600">37+ Million</p>
               </div>
 
               <!-- Currency -->
@@ -77,7 +77,7 @@
               <!-- Language -->
               <div class="rounded-lg bg-white p-4 shadow-md">
                 <h3 class="mb-2 font-semibold text-gray-800">Language</h3>
-                <p class="text-blue-600">Uzbek, Russian</p>
+                <p class="text-blue-600">Uzbek, Russian, English</p>
               </div>
             </div>
           </div>
