@@ -138,8 +138,6 @@
           </template>
         </AppDropdown>
 
-        <NuxtLink to="/coming-soon" :class="linkClass"> News </NuxtLink>
-
         <AppDropdown
           title="Gallery"
           :trigger-class="dropdownTriggerClass"
@@ -388,14 +386,6 @@
             </NuxtLink>
           </template>
         </AppDropdown>
-
-        <NuxtLink
-          to="/coming-soon"
-          :class="mobileLinkClass"
-          @click="closeMobileMenu"
-        >
-          News
-        </NuxtLink>
 
         <!-- Gallery Mobile Dropdown -->
         <AppDropdown
