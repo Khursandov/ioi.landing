@@ -67,30 +67,22 @@
             Quick Facts
           </h2>
           <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            <div
-              class="rounded-xl bg-gradient-to-br from-[#004D79] to-blue-600 p-6 text-center text-white"
-            >
+            <div class="rounded-xl bg-[#065989] p-6 text-center text-white">
               <div class="mb-3 text-3xl">🏛️</div>
               <h3 class="mb-2 text-xl font-semibold">Capital</h3>
               <p>Tashkent</p>
             </div>
-            <div
-              class="rounded-xl bg-gradient-to-br from-[#004D79] to-blue-600 p-6 text-center text-white"
-            >
+            <div class="rounded-xl bg-[#065989] p-6 text-center text-white">
               <div class="mb-3 text-3xl">👥</div>
               <h3 class="mb-2 text-xl font-semibold">Population</h3>
               <p>37+ Million</p>
             </div>
-            <div
-              class="rounded-xl bg-gradient-to-br from-[#004D79] to-blue-600 p-6 text-center text-white"
-            >
+            <div class="rounded-xl bg-[#065989] p-6 text-center text-white">
               <div class="mb-3 text-3xl">🗣️</div>
               <h3 class="mb-2 text-xl font-semibold">Language</h3>
               <p>Uzbek, Russian, English</p>
             </div>
-            <div
-              class="rounded-xl bg-gradient-to-br from-[#004D79] to-blue-600 p-6 text-center text-white"
-            >
+            <div class="rounded-xl bg-[#065989] p-6 text-center text-white">
               <div class="mb-3 text-3xl">💰</div>
               <h3 class="mb-2 text-xl font-semibold">Currency</h3>
               <p>Uzbek Som</p>
@@ -313,9 +305,7 @@
         </section>
 
         <!-- Why Uzbekistan for IOI 2026 -->
-        <section
-          class="mb-16 rounded-2xl bg-gradient-to-r from-[#004D79] to-blue-600 p-8 text-white md:p-12"
-        >
+        <section class="mb-16 rounded-2xl bg-[#065989] p-8 text-white md:p-12">
           <h2 class="mb-8 text-center text-3xl font-bold md:text-4xl">
             Why Uzbekistan for IOI 2026?
           </h2>

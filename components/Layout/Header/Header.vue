@@ -35,7 +35,14 @@
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
-              IOI 2026
+              Registration
+            </NuxtLink>
+            <NuxtLink
+              to="/coming-soon"
+              class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
+              @click="close"
+            >
+              Accommodations
             </NuxtLink>
             <NuxtLink
               to="/coming-soon"
@@ -80,14 +87,7 @@
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
-              General Information
-            </NuxtLink>
-            <NuxtLink
-              to="/coming-soon"
-              class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
-              @click="close"
-            >
-              Registration
+              General Information & FAQ
             </NuxtLink>
             <NuxtLink
               to="/coming-soon"
@@ -95,13 +95,6 @@
               @click="close"
             >
               Travel and visa
-            </NuxtLink>
-            <NuxtLink
-              to="/coming-soon"
-              class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
-              @click="close"
-            >
-              Accommodations
             </NuxtLink>
           </template>
         </AppDropdown>
@@ -115,13 +108,6 @@
         >
           <template #default="{ close }">
             <NuxtLink
-              to="/coming-soon"
-              class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
-              @click="close"
-            >
-              Call for Tasks
-            </NuxtLink>
-            <NuxtLink
               to="/contest-rules"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
@@ -133,7 +119,21 @@
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
-              Results
+              Call for Tasks
+            </NuxtLink>
+            <NuxtLink
+              to="/coming-soon"
+              class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
+              @click="close"
+            >
+              Contest environment
+            </NuxtLink>
+            <NuxtLink
+              to="/coming-soon"
+              class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
+              @click="close"
+            >
+              Scoreboard
             </NuxtLink>
           </template>
         </AppDropdown>
@@ -149,14 +149,14 @@
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
-              Photos
+              Uzbekistan
             </NuxtLink>
             <NuxtLink
               to="/coming-soon"
               class="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200 hover:bg-gray-100 hover:text-gray-900"
               @click="close"
             >
-              Videos
+              IOI 2026
             </NuxtLink>
           </template>
         </AppDropdown>
@@ -357,18 +357,6 @@
                 }
               "
             >
-              Call for Tasks
-            </NuxtLink>
-            <NuxtLink
-              to="/coming-soon"
-              :class="mobileLinkClass"
-              @click="
-                () => {
-                  close();
-                  closeMobileMenu();
-                }
-              "
-            >
               Contest Rules
             </NuxtLink>
             <NuxtLink
@@ -381,7 +369,31 @@
                 }
               "
             >
-              Results
+              Call for Tasks
+            </NuxtLink>
+            <NuxtLink
+              to="/coming-soon"
+              :class="mobileLinkClass"
+              @click="
+                () => {
+                  close();
+                  closeMobileMenu();
+                }
+              "
+            >
+              Contest environment
+            </NuxtLink>
+            <NuxtLink
+              to="/coming-soon"
+              :class="mobileLinkClass"
+              @click="
+                () => {
+                  close();
+                  closeMobileMenu();
+                }
+              "
+            >
+              Scoreboard
             </NuxtLink>
           </template>
         </AppDropdown>
@@ -405,7 +417,7 @@
                 }
               "
             >
-              Photos
+              Uzbekistan
             </NuxtLink>
             <NuxtLink
               to="/coming-soon"
@@ -417,7 +429,7 @@
                 }
               "
             >
-              Videos
+              IOI 2026
             </NuxtLink>
           </template>
         </AppDropdown>
