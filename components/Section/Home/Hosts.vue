@@ -36,7 +36,7 @@
       SPONSORS
     </h3>
     <div class="mt-12 flex flex-col items-center justify-center">
-      <img src="/images/hosts/uzum.png" alt="Uzum" class="mb-2 h-14 md:h-20" />
+      <img src="/images/hosts/uzum1.png" alt="Uzum" class="mb-2 h-14 md:h-20" />
     </div>
   </section>
 </template>

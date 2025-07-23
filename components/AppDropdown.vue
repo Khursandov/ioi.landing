@@ -44,10 +44,10 @@ interface Props {
 const props = withDefaults(defineProps<Props>(), {
   triggerClass: "flex items-center space-x-1 transition-colors duration-200",
   menuClass:
-    "absolute left-0 top-full mt-2 w-48 rounded-lg bg-white py-2 shadow-lg ring-1 ring-black ring-opacity-5 z-50",
+    "absolute left-0 top-full mt-2 w-max rounded-lg bg-white py-2 shadow-lg ring-1 ring-black ring-opacity-5 z-50",
   showArrow: true,
   hoverToOpen: true,
-  closeDelay: 700,
+  closeDelay: 0,
 });
 
 const isOpen = ref(false);
