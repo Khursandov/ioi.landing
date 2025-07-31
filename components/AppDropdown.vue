@@ -26,7 +26,7 @@
 
     <!-- Dropdown Menu -->
     <div v-if="isOpen" :class="menuClass">
-      <slot :close="closeImmediately" />
+      <slot />
     </div>
   </div>
 </template>
@@ -41,81 +41,41 @@ interface Props {
   closeDelay?: number;
 }
 
-const props = withDefaults(defineProps<Props>(), {
+withDefaults(defineProps<Props>(), {
   triggerClass: "flex items-center space-x-1 transition-colors duration-200",
   menuClass:
-    "absolute left-0 top-full mt-2 w-max rounded-lg bg-white py-2 shadow-lg ring-1 ring-black ring-opacity-5 z-50",
+    "absolute left-0 top-full w-max rounded-lg bg-white py-2 shadow-lg ring-1 ring-black ring-opacity-5 z-50",
   showArrow: true,
   hoverToOpen: true,
   closeDelay: 0,
 });
 
 const isOpen = ref(false);
-let closeTimer: NodeJS.Timeout | null = null;
 
 function toggleDropdown() {
   isOpen.value = !isOpen.value;
-  // Очищаем таймер при ручном переключении
-  if (closeTimer) {
-    clearTimeout(closeTimer);
-    closeTimer = null;
-  }
 }
 
 function openDropdown() {
-  // Очищаем таймер закрытия если он существует
-  if (closeTimer) {
-    clearTimeout(closeTimer);
-    closeTimer = null;
-  }
   isOpen.value = true;
 }
 
 function closeDropdown() {
-  if (props.closeDelay > 0) {
-    // Устанавливаем задержку перед закрытием
-    closeTimer = setTimeout(() => {
-      isOpen.value = false;
-      closeTimer = null;
-    }, props.closeDelay);
-  } else {
-    isOpen.value = false;
-  }
-}
-
-function closeImmediately() {
-  // Для немедленного закрытия при клике на ссылку
-  if (closeTimer) {
-    clearTimeout(closeTimer);
-    closeTimer = null;
-  }
   isOpen.value = false;
 }
 
 function handleMouseEnter() {
-  if (props.hoverToOpen) {
-    openDropdown();
-  }
+  openDropdown();
 }
 
 function handleMouseLeave() {
-  if (props.hoverToOpen) {
-    closeDropdown();
-  }
+  closeDropdown();
 }
-
-// Очищаем таймер при размонтировании компонента
-onUnmounted(() => {
-  if (closeTimer) {
-    clearTimeout(closeTimer);
-  }
-});
 
 // Экспортируем функции для внешнего использования
 defineExpose({
   isOpen: readonly(isOpen),
   open: openDropdown,
-  close: closeImmediately,
   toggle: toggleDropdown,
 });
-</script> 
+</script>
